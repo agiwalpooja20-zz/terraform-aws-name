@@ -8,6 +8,7 @@ Terraform module which creates a name for infrastructure resources that follows
 # Create a name for the EKS cluster
 module "eks_name" {
   source = "terraform-aws-name"
+  version = "1.0.0"
 
   providers {
     random = "random"
