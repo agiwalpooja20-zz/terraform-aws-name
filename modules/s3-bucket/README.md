@@ -12,6 +12,7 @@ It enforces the following:
 # Example with CORS
 module "workforce_service_a_bucket" {
   source = "terraform-aws-name/s3-bucket"
+  version = "v1.0.1"
 
   namespace      = "${var.namespace}"
   environment = "${var.environment}"
