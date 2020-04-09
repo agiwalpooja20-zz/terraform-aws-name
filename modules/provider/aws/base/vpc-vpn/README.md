@@ -40,7 +40,7 @@ provider "template" {
 }
 
 module "development_vpc_for_vpn" {
-  source = "terraform-aws-name/modules/provider/aws/base/vpc-vpn"
+  source = "terraform-aws-name/modules//provider/aws/base/vpc-vpn"
 
   providers {
     aws      = "aws.us-west-2"
